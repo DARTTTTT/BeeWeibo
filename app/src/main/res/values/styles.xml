@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProgressDialog" parent="android:Theme.Dialog">
+        <!--  <item name="android:indeterminateDrawable">@drawable/ic_circle_progress</item>  -->
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明 false -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--模糊-->
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <declare-styleable name="StatusBarHeightView">
+        <attr name="use_type" format="integer">
+            <enum name="use_height" value="0" />
+            <enum name="use_padding_top" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 设置tablayout样式 -->
+    <style name="MyTablayoutstyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <declare-styleable name="DecimalEditText">
+        <attr name="decimalStarNumber" format="integer" />
+        <attr name="decimalEndNumber" format="integer" />
+        <attr name="max" format="float" />
+        <attr name="min" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRangeNumberEditText">
+        <attr name="maxDouble" format="float" />
+        <attr name="minDouble" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TabView">
+        <!--线的颜色-->
+        <attr name="outViewLineColor" format="color" />
+        <!--线的高度-->
+        <attr name="outViewLineHeight" format="dimension" />
+        <!--圆中间的距离-->
+        <attr name="outViewDistance" format="dimension" />
+        <!--偏移的角度-->
+        <attr name="outViewOffsetAngle" format="float" />
+    </declare-styleable>
+
+
+
+    <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+
+
+</resources>
