@@ -16,7 +16,6 @@ public class MainActivity extends BaseActivity {
     protected int setContentLayout() {
         return R.layout.activity_main;
     }
-
     @Override
     protected void initPresenter() {
     }
