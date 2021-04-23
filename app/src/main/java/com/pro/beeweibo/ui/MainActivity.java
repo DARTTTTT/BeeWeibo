@@ -16,9 +16,11 @@ public class MainActivity extends BaseActivity {
     protected int setContentLayout() {
         return R.layout.activity_main;
     }
+
     @Override
     protected void initPresenter() {
     }
+
     @Override
     protected void initView(View view) {
     }
@@ -26,6 +28,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void initData() {
     }
+
     @Override
     protected void initEvent() {
     }
