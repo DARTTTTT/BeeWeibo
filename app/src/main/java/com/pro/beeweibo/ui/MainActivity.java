@@ -24,7 +24,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView(View view) {
-
     }
 
     @Override
